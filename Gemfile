@@ -2,4 +2,4 @@
 source "https://rubygems.org"
 
 # gem "rails"
-gem 'rmagick', '3.3.0'
+gem 'rmagick', '3.2.0'
