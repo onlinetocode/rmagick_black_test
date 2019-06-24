@@ -1,13 +1,26 @@
+GIT
+  remote: git://github.com/Watson1978/rmagick.git
+  revision: 274b7fb82fdfe297181e78258d70b13540e052c2
+  ref: 274b7fb82fdfe297181e78258d70b13540e052c2
+  branch: support/cmyk
+  specs:
+    rmagick (3.2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
-    rmagick (3.2.0)
+    coderay (1.1.2)
+    method_source (0.9.2)
+    pry (0.12.2)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  rmagick (= 3.2.0)
+  pry
+  rmagick!
 
 BUNDLED WITH
    1.17.2
